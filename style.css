@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 1700px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(181, 111, 111, 0.12);
+    overflow: hidden;
+}
+
+.lado-imagem {
+    width: 80%;
+    background-image: url("tela.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.lado-form {
+    width: 60%;
+    padding: 30px;
+}
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+*/
+h1 {
+    text-align: center;
+    color: #0b7c25;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    color: #4b4f56;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccd0d5;
+    border-radius: 8px;
+}
+
+input:focus, select:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(43, 144, 67, 0.15);
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.termos input {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
